@@ -1,0 +1,17 @@
+div.NewsFeedTitle {
+	font-size:19px; color:#273777; font-weight:bold;
+}
+
+div.NewsFeedBlurb {
+	font-size: 13px;
+	color: #666666;
+}
+
+div.content > div > div > div > div > section > div > div > div > ul > li  > img {
+	width: 100%;
+}
+
+div.content > div.home-page-hodler > div > div > div.content-holder > div:nth-child(2) > div.medium-8.large-8.columns > ul > li {
+	font-size: 15px;
+    color: #333333;
+}

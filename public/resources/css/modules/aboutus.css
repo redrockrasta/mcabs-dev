@@ -1,0 +1,23 @@
+/*About US*/
+.panelradiusbox > div > div > p > .bigfirst { 
+	color: #273777; font-size: 30px !important;
+}
+.bigfirst::first-letter {
+	font-size: 30px !important;
+}
+.panelradiusbox > div > div > p > .bigfirst { 
+	color: #273777; font-size: 30px !important;
+}
+.image-target-holder > img { 
+	box-shadow: 7px 8px 12px #a6a6a6;
+}
+.content-box > div > div > div > a { 
+	float:right; padding-right: 20px;
+}
+
+div > div > div.content-box > .panelradiusbox > div > div > h4 {
+ 	color: #273777; font-weight: bold;
+ }
+
+
+
