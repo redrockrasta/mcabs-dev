@@ -1,5 +1,5 @@
 <footer >
-    <div class="large-12 columns">
+    <div class="footer-container">
       <div class="icon-holder">
         <div class="large-6 columns contact" >
           <h6>VISIT OUR OFFICE</h6>
@@ -12,9 +12,9 @@
         </div>
         <div class="large-6 columns social-media">
               <h6>GET IN TOUCH</h6>
-              <a href="https://www.facebook.com/MCABSHRGlobalSolutions"><i class="fa fa-2x fa-facebook-square fa-2x"></i></a>
-              <a href="#"><i class="fa fa-2x fa-twitter-square fa-2x"></i></a>
-              <a href="#"><i class="fa fa-2x fa-linkedin-square fa-2x"></i></a>
+              <a href="https://www.facebook.com/MCABSHRGlobalSolutions"><i class="fa fa-2x fa-facebook-square"></i></a>
+              <a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
+              <a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
         </div>   
     </div>
       <div class="credits">

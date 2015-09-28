@@ -44,16 +44,7 @@
             <img src="/resources/images/homeslider/hiring-urgent.jpg" alt="image">
             <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
           </div>
-          <!-- <div class="large-4 medium-4 columns">
-            <h4>BPO</h4>
-            <img src="/resources/images/content/bpo-job.jpg" alt="">
-            <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-          </div>
-          <div class="large-4 medium-4 columns">
-            <h4>Information &amp; Technology</h4>
-            <img src="/resources/images/content/it-job.jpg" alt="">
-            <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p> -->
-          </div><hr>
+         </div><hr>
         </div>
     </div>
       <!-- END HOME PAGE CONTENT -->
@@ -61,5 +52,5 @@
 </div>
 @endsection
 @section('footerholder')
-  <?php echo View::make('partial.webfooter') ?>
+  @include('partial.webfooter') 
 @endsection

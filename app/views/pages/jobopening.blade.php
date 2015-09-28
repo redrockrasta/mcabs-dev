@@ -35,38 +35,12 @@
                     <li>Ensure trouble free deployment and renewing contracts.</li>
                 </ul>
               </div>
-              <!-- <div class="medium-4 large-4 columns">
-                <h3>Title of Content</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus illo debitis, enim qui nemo harum perspiciatis inventore, facere omnis neque ipsam.</p>
-                <h3>Title of Content</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus illo debitis, enim qui nemo harum perspiciatis inventore, facere omnis neque ipsam.</p>
-                <h3>Title of Content</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus illo debitis, enim qui nemo harum perspiciatis inventore, facere omnis neque ipsam.</p>
-              </div> -->
+              
               <div class="medium-4 large-4 columns text-center">
                 <img src="/resources/images/content/now-is-now.jpg" alt="">
               </div>
             </div>
-            <div class="row"><hr>
-              <div class="large-12 columns">
-                <h2>SECONDARY Header</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="medium-4 large-4 columns text-center">
-                <img src="http://placehold.it/300x250&amp;text=[things]">
-                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dicta hic ut suscipit molestias numquam ab unde nulla repellendus incidunt, magnam reiciendis odio, dolorum labore asperiores odit assumenda ex delectus.</p>
-              </div>
-              <div class="medium-4 large-4 columns text-center">
-                <img src="http://placehold.it/300x250&amp;text=[things]">
-                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dicta hic ut suscipit molestias numquam ab unde nulla repellendus incidunt, magnam reiciendis odio, dolorum labore asperiores odit assumenda ex delectus.</p>
-              </div>
-              <div class="medium-4 large-4 columns text-center">
-                <img src="http://placehold.it/300x250&amp;text=[things]">
-                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dicta hic ut suscipit molestias numquam ab unde nulla repellendus incidunt, magnam reiciendis odio, dolorum labore asperiores odit assumenda ex delectus.</p>
-              </div><hr>
-            </div>
-            
+           
       <!-- END HOME PAGE CONTENT -->
     </div>
   </div><br>
@@ -75,5 +49,5 @@
 
 @endsection
 @section('footerholder')
-  <?php echo View::make('partial.webfooter') ?>
+  @include('partial.webfooter') 
 @endsection

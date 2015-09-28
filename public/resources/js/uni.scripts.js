@@ -45,7 +45,7 @@ $(window).load(function (){
 
                     if (validateEmail(document.getElementById("txtemail").value))
                     {
-                        $('#submitcontact').attr("href", "/sendcontact/" + fullname + "/" + email + "/" + message);
+                        $('#submitcontact').attr("submit", "/sendcontact/" + fullname + "/" + email + "/" + message);
                     }
 
                     document.getElementById("validationemail").innerHTML  = 'Invalid Email Address.';

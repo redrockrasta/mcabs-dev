@@ -11,22 +11,16 @@ footer > div > div.credits > div {
 footer > div > div.credits > div > h6 {
 	color: #888; font-size: 12px; text-align: center; 
 }
-
-/*Social Media*/
-div.footerholder > footer > div > div.icon-holder > div > a > i.fa.fa-2x { 
-	padding: 0 0 0 5px; color: #FCB545; 
-}
-
-div.footerholder > footer > div > div.icon-holder > div.large-6.columns.social-media > h6{ 
+div.footerholder  footer h6 {
 	font-family: "time",Helvetica,Arial,sans-serif;
 	color: #fff;
-	font-weight: bolder;
-
-}
-div.footerholder > footer > div > div.icon-holder > div.large-6.columns.social-media  > h6 {
+	font-weight: bolder;} 
+/*Social Media*/
+.social-media >a >i {padding: 0 0 0 5px; color: #FCB545; }
+div.footerholder  div.icon-holder  div.social-media  > h6 {
 	margin-bottom: 40px;
 }
-div.footerholder > footer > div > div.icon-holder > div.large-6.columns.social-media > h6::after{ 
+div.footerholder div.icon-holder div.social-media > h6::after{ 
 	background: #FCB545;
     content: "";
     display: block;
@@ -37,22 +31,17 @@ div.footerholder > footer > div > div.icon-holder > div.large-6.columns.social-m
     right: 30px;
     padding-right: 90px;
 }
-div.footerholder > footer > div > div.icon-holder > div.large-6.columns.social-media {
+div.footerholder div.icon-holder div.social-media {
 	padding-right: 30px;
 	padding-bottom: 61px;
 }
 
 /*Contacts*/
-div.footerholder > footer > div > div.icon-holder > div.large-6.columns.contact > h6{ 
-	color: #fff;
-	font-weight: bolder;
-
-}
-div.footerholder > footer > div > div.icon-holder > div.large-6.columns.contact > h6 {
+div.footerholder div.icon-holder div.contact > h6 {
 	margin-bottom: 40px;
 	text-align: left;
 }
-div.footerholder > footer > div > div.icon-holder > div.large-6.columns.contact > h6::after{ 
+div.footerholder div.icon-holder div.contact > h6::after{ 
 	background: #FCB545;
     content: "";
     display: block;
@@ -63,14 +52,31 @@ div.footerholder > footer > div > div.icon-holder > div.large-6.columns.contact 
     padding-right: 90px;
     float: left;
 }
-div.footerholder > footer > div > div.icon-holder > div.large-6.columns.contact > p {
+div.footer-container p {
 	text-align: left;
 	color: #FCB545;
 	font-size: 12px;
 	margin: 0px;
 }
-div.footerholder > footer > div > div.icon-holder > div.large-6.columns.contact {
+div.footerholder div.icon-holder div.contact {
 	padding-left: 30px;
 	padding-bottom: 17px;
+}
+
+@media only screen and (max-width: 40.063em) { 
+	div.footerholder div.icon-holder div.social-media > h6::after{ 
+	background: #FCB545;
+    content: "";
+    display: block;
+    height: 5px;
+    margin-top: 10px;
+    width: 60px;
+    position: absolute;
+    padding-right: 90px;
+}
+div.footerholder > footer > div > div.icon-holder > div{ 
+	background:#222; padding: 30px 0;
+}
+
 }
 

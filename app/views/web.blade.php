@@ -17,10 +17,11 @@
     <meta name="revisit-after" content="7 days">
     <meta name="copyright" content="www.scriptsandpixels.com">
 
+
+    {{HTML::style('resources/js/uni.scripts.js');}}
     {{HTML::style('resources/components/foundation-5.2.3.custom/css/foundation.css');}}
     {{HTML::style('resources/components/foundation-5.2.3.custom/css/normalize.css');}}
     {{HTML::style('resources/components/ResponsiveSlides/responsiveslides.css');}}
-    {{HTML::style('resources/js/uni.scripts.js');}}
     <link rel="stylesheet" type="text/css" href="/resources/css/main.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <script src="https://maps.googleapis.com/maps/api/js"></script>
@@ -51,7 +52,7 @@
     {{HTML::script('resources/components/foundation-5.2.3.custom/js/foundation.min.js');}}
     {{HTML::script('resources/components/foundation-5.2.3.custom/js/foundation/foundation.topbar.js');}}
     {{HTML::script('resources/components/ResponsiveSlides/responsiveslides.min.js');}}
-    {{HTML::script('resources/js/uni.scripts.js');}}
+    
 
     <script type="text/javascript">
         $(document).foundation();

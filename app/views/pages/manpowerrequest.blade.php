@@ -1,10 +1,6 @@
-@section('head-logo')
-  <?php echo View::make('partial.header-logo') ?>
-@endsection
-@section('navibar')
-  <?php echo View::make('partial.navigation-bar') ?>
-@endsection
 @section ('content')
+@include('partial.header-logo')
+@include('partial.navigation-bar')
 <form>
     <div class="mpr-holder">
         <div class="row">
@@ -61,32 +57,11 @@
                 </div>
             </div>
 
-            <!-- <div class="row">
-              <div class="large-4 columns">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-4.columns">
-              </div>
-              <div class="large-4 columns">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-4.columns">
-              </div>
-              <div class="large-4 columns">
-                <div class="row collapse">
-                  <label>Input Label</label>
-                  <div class="small-9 columns">
-                    <input type="text" placeholder="small-9.columns">
-                  </div>
-                  <div class="small-3 columns">
-                    <span class="postfix">.com</span>
-                  </div>
-                </div>
-              </div>
-            </div> -->
         </fieldset><hr>
       </div>
   </div>
 </form>
 @endsection
 @section('footerholder')
-  <?php echo View::make('partial.webfooter') ?>
+  @include('partial.webfooter') 
 @endsection

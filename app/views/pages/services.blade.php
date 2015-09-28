@@ -1,10 +1,6 @@
-@section('head-logo')
-  <?php echo View::make('partial.header-logo') ?>
-@endsection
-@section('navibar')
-  <?php echo View::make('partial.navigation-bar') ?>
-@endsection
 @section ('content')
+@include('partial.header-logo')
+@include('partial.navigation-bar')
 <div class="srvices-holder">
     <div class="row">
         <div class="large-12 columns"><hr>
@@ -84,7 +80,7 @@
 </div> 
 @endsection
 @section('footerholder')
-  <?php echo View::make('partial.webfooter') ?>
+  @include('partial.webfooter') 
 @endsection
 
 
