@@ -20,7 +20,7 @@
       <div class="credits">
         <div class="large-12 columns">
             <h6>
-              Copyright 2015 ALL RIGHTS RESERVED. POWERED BY <a href="http://www.scriptsandpixels.com/">SCRIPTS AND PIXELS</a>
+              Copyright 2015 ALL RIGHTS RESERVED.
             </h6>
         </div>
       </div>
