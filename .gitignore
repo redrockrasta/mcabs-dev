@@ -9,3 +9,14 @@ composer.lock
 Thumbs.db
 .sass-cache
 /logs
+404.shtml
+cgi-bin/
+default.htm
+favicon.ico
+.ftpquota
+.htaccess
+kampojuanph.com/
+phpinfo.php
+php.ini
+robots.txt
+under_construction.html
